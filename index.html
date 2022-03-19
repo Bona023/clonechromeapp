@@ -10,7 +10,17 @@
     <body>
         <div class="grid">
             <div class="clock"></div>
-            <div class="greeting hidden"></div>
+            <div class="greeting">
+                <form id="login-form" class="hidden">
+                    <span>How should I call you?</span>
+                    <input required type="text" placeholder="Your Name" maxlength="15" />
+                    <button>START</button>
+                </form>
+                <div id="login-greeting" class="hidden">
+                    <span class="hello"></span>
+                    <span class="hello-user"></span>
+                </div>
+            </div>
             <div class="todo"></div>
             <div class="weather"></div>
             <div class="quote"></div>
