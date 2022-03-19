@@ -23,25 +23,37 @@ body {
 
 .clock {
     grid-area: clock;
-    background-color: rgb(82, 187, 187);
+    background-color: rgba(82, 187, 187, 0.3);
 }
 
 .greeting {
     grid-area: greeting;
-    background-color: rgb(203, 126, 233);
+    background-color: rgba(203, 126, 233, 0.3);
 }
 
 .todo {
     grid-area: todo;
-    background-color: rgb(238, 139, 73);
+    background-color: rgba(238, 139, 73, 0.3);
 }
 
 .weather {
     grid-area: weather;
-    background-color: burlywood;
+    background-color: rgba(235, 180, 108, 0.3);
 }
 
-.quote {
+.quotes {
     grid-area: quote;
-    background-color: rgb(94, 136, 94);
+    background-color: rgba(94, 136, 94, 0.3);
+}
+
+img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    z-index: -1;
+    opacity: 80%;
 }
