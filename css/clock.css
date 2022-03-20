@@ -1,27 +1,26 @@
-.clock {
-    width: 100%;
-    height: 100%;
-    grid-area: clock;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(82, 187, 187, 0.3);
-}
-
 .clock_today {
-    display: inline-block;
+    display: block;
     width: 90%;
-    height: 20%;
-    font-size: 2.5rem;
+    height: 90%;
+    font-size: 2.8rem;
     text-align: center;
-    margin: 3% 0%;
+    font-weight: 700;
+    background-color: rgba(117, 62, 119, 0.8);
+    border-radius: 50%;
+    color: rgb(78, 160, 255);
+    padding-top: 9%;
 }
 
 .clock_now {
-    width: 80%;
-    height: 10%;
-    display: inline-block;
+    width: 45%;
+    height: 20%;
+    display: block;
     font-size: 1.5rem;
-    margin: 5% 0%;
+    background-color: rgb(62, 62, 62);
+    color: white;
+    padding: 2%;
+    border-radius: 4%;
+    border: 2px solid aliceblue;
+    text-align: center;
+    font-weight: 500;
 }

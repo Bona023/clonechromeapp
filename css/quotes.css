@@ -1,0 +1,23 @@
+.quotes {
+    grid-area: quote;
+    background-color: rgba(53, 94, 78, 0.7);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 93%;
+    height: 72%;
+    padding: 3%;
+}
+
+.quotes_quote,
+.quotes_author {
+    color: rgb(214, 146, 0);
+    font-weight: 500;
+}
+.quotes_quote {
+    font-size: 1.5rem;
+}
+.quotes_author {
+    margin-top: 2%;
+    font-size: 1rem;
+}

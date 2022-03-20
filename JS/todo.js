@@ -31,7 +31,7 @@ function paintToDo(newTodo) {
     });
     const span = document.createElement("span");
     const xButton = document.createElement("button");
-    xButton.classList.add("fa-solid", "fa-xmark");
+    xButton.classList.add("fa-solid", "fa-xmark", "fa-lg");
     xButton.addEventListener("click", deleteToDo);
     li.appendChild(check);
     li.appendChild(span);
