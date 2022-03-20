@@ -37,7 +37,6 @@
 }
 
 .todo_list li {
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     display: flex;
     width: 100%;
     height: 5%;
