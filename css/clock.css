@@ -1,0 +1,27 @@
+.clock {
+    width: 100%;
+    height: 100%;
+    grid-area: clock;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(82, 187, 187, 0.3);
+}
+
+.clock_today {
+    display: inline-block;
+    width: 90%;
+    height: 20%;
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 3% 0%;
+}
+
+.clock_now {
+    width: 80%;
+    height: 10%;
+    display: inline-block;
+    font-size: 1.5rem;
+    margin: 5% 0%;
+}

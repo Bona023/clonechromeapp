@@ -1,3 +1,6 @@
+@import "greeting.css";
+@import "clock.css";
+
 body {
     height: 100vh;
     margin: 0%;
@@ -7,7 +10,7 @@ body {
 }
 
 .hidden {
-    display: none;
+    display: none !important;
 }
 
 .grid {
@@ -15,25 +18,15 @@ body {
     height: 90%;
     display: grid;
     grid-template:
-        "clock greeting greeting greeting todo todo" 2fr
-        "weather greeting greeting greeting todo todo" 1fr
-        "weather quote quote quote todo todo" 1fr /1fr 1fr 1fr 1fr 1fr 1fr;
-    gap: 1%;
-}
-
-.clock {
-    grid-area: clock;
-    background-color: rgba(82, 187, 187, 0.3);
-}
-
-.greeting {
-    grid-area: greeting;
-    background-color: rgba(203, 126, 233, 0.3);
+        "clock greeting todo todo" 2fr
+        "weather greeting todo todo" 1fr
+        "weather quote todo todo" 1fr /1fr 3fr 2fr;
+    gap: 3%;
 }
 
 .todo {
     grid-area: todo;
-    background-color: rgba(238, 139, 73, 0.3);
+    background-color: rgba(211, 128, 34, 0.5);
 }
 
 .todo_list button {
@@ -43,13 +36,13 @@ body {
 
 .weather {
     grid-area: weather;
-    background-color: rgba(235, 180, 108, 0.3);
+    background-color: rgba(82, 187, 187, 0.3);
     color: white;
 }
 
 .quotes {
     grid-area: quote;
-    background-color: rgba(94, 136, 94, 0.3);
+    background-color: rgba(82, 187, 187, 0.3);
 }
 
 img {
