@@ -76,14 +76,8 @@
 
 8. CSS
 
-<<<<<<< Updated upstream
--   css 마무리 ✔️
-=======
-<br/>
-
-9. 마무리
+-   배경, 배치, 새폰트까지✔️
 
 <br/>
 
 😊 완성!!
->>>>>>> Stashed changes
